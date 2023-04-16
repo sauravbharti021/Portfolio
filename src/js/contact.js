@@ -1,9 +1,4 @@
-const mongoose = require('mongoose')
-main().catch(err => console.log(err));
 
-async function main() {
-  await mongoose.connect('mongodb+srv://sauravbharti021:b1wA0Czp0Egqe2B4@cluster0.4vuwqbm.mongodb.net/test');
-}
 
 const contactForm = document.querySelector('#contact_form');
 const nameInput = document.querySelector('#name');
@@ -24,7 +19,7 @@ var messageSchema = new mongoose.Schema({
 
 const emailPattern =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-const API_URL = 'Hc11R5jWseMjRfM3TY6STysG9NR59EOPVlepwyB2LjZ6WY7KVQZ7OXeqawj9lrSW';
+const API_URL = 'API_KEY';
 
 const warningClass = 'is-invalid';
 const successClass = 'is-valid';
