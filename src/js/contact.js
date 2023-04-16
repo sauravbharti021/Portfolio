@@ -10,12 +10,6 @@ const thanksMessage = document.querySelector('.thanks');
 const spinner = document.querySelector('.spinner-border');
 const charCounter = document.querySelector('.valid-feedback');
 
-var messageSchema = new mongoose.Schema({
-  name:String,
-  email: String,
-  subject: String,
-  message: String
-})
 
 const emailPattern =
   /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
