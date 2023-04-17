@@ -23,6 +23,7 @@ import './contact';
 // scroll animation
 import AOS from 'aos';
 import '../../node_modules/aos/dist/aos.css';
+AOS.init();
 AOS.init({
   once: true
 });
