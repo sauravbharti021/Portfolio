@@ -1,0 +1,17 @@
+
+.bubble img {
+ 
+  overflow: hidden;
+  border-radius: 60% 40% 30% 60%/60% 60% 70% 40%;
+  animation: moveBorder 4s ease-in-out infinite; /* Adjust the duration for the animation */
+}
+
+
+@keyframes moveBorder {
+  0%, 90% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5px, -5px); /* Adjust the values for the desired movement */
+  }
+}
